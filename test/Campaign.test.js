@@ -49,8 +49,8 @@ describe('', () => {
   });
 
   /*
-  it('allows people to contribute money and marks them as approvers', async () => {
-    await campaign.methods.contribute().send({
+  it('allows to add a case', async () => {
+    await factory.methods.contribute().send({
       value: '200',
       from: accounts[1]
     });
