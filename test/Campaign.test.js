@@ -43,12 +43,12 @@ describe('', () => {
     assert.ok(lawCase.options.address);
   });
 
-  /*
-	it('marks caller as the campaign manager', async () => {
-    const manager = await campaign.methods.manager().call();
-    assert.equal(accounts[0], manager);
+  it('marks caller as the case client', async () => {
+    const client = await lawCase.methods.client().call();
+    assert.equal(accounts[0], client);
   });
 
+  /*
   it('allows people to contribute money and marks them as approvers', async () => {
     await campaign.methods.contribute().send({
       value: '200',
