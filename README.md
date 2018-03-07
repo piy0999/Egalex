@@ -1,13 +1,10 @@
-<img src= "https://github.com/piy0999/Egalex/blob/master/Images/auction%20(1).png" width="128" height="128">
-
-
+<img src= "https://github.com/piy0999/Egalex/blob/master/images/auction%20(1).png" width="128" height="128">
 
 ## Egalex
+
 <i> Enhancing acces to Justice ! </i>
 
-The Project workflow is as follows: 
-
-
+The Project workflow is as follows:
 
 About the project
 

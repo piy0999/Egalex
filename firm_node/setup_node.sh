@@ -16,8 +16,8 @@ tar -xvzf multichain-1.0.4.tar.gz
 cd multichain-1.0.4
 sudo mv multichaind multichain-cli multichain-util /usr/local/bin
 cd ~
-echo '6. Creating multichain stream...'
-multichain-util create chain1
+echo '6. Connecting to multichain chain...'
+multichaind chain1@$1 -daemon
 multichaind chain1 -daemon
 echo '7. Opening ports...'
 sudo ufw allow 22
