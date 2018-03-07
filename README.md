@@ -22,7 +22,7 @@ To process this audio, we created an <b> in-house speech-to-text model </b>. Aft
 
 #### Lawyer Front-end
 
-<img src= "https://github.com/piy0999/Egalex/blob/master/images/frontend.png">
+<img src= "https://github.com/piy0999/Egalex/blob/master/images/frontend.png" height="400" width="700">
 
 A web app for law firms made with react to see and accept cases.
 
