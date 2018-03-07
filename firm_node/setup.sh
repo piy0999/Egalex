@@ -26,7 +26,7 @@ sudo ufw enable
 echo '8. Setting up local credentials for multichain...'
 port=`grep default-rpc-port ~/.multichain/chain1/params.dat | grep -oP '[0-9]{4}'`
 password=`grep rpcpassword  ~/.multichain/chain1/multichain.conf | cut -d'=' -f2`
-cat >~/CreditSense-Private/bank_node/credentials.json <<EOF
+cat >~/CreditSense-Private/bank_node/API/credentials.json <<EOF
     {
       "rpcuser": "multichainrpc",
       "rpcpasswd": "$password",
@@ -36,5 +36,5 @@ cat >~/CreditSense-Private/bank_node/credentials.json <<EOF
     }
 EOF
 echo '9. Starting flask server...'
-cd ~/CreditSense-Private/bank_node/
+cd ~/CreditSense-Private/bank_node/API
 python3 app.py
