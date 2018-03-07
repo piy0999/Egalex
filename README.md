@@ -2,11 +2,11 @@
 
 ## Egalex
 
-<i> Enhancing acces to Justice ! </i>
+<i> Enhancing access to Justice ! </i>
 
-The Project workflow is as follows:
+### About
 
-About the project
+<img src= "https://github.com/piy0999/Egalex/blob/master/images/flowchart.png" width="500" height="500">
 
 Law firms already do pro bono work but many times they find it hard to find cases or underprivileged people find it hard to reach these firms.
 
@@ -18,22 +18,36 @@ Moreover, underprivileged people can also add their case to the network through 
 
 To process this audio, we created an <b> in-house speech-to-text model </b>. After transcribing the story we push the person's ask for help to the network with a summary of his story and contact details. We did it for English to English but this could work for any language so it's really useful for people like refugees.
 
+### Tech Stack
+
 #### Lawyer Front-end
 
-A react web app to see and accept cases.
+<img src= "https://github.com/piy0999/Egalex/blob/master/images/frontend.png" width="500" height="500">
 
-#### App
+A web app for law firms made with react to see and accept cases.
 
-A react native app which helps register new cases. Has a sound recording feature which is sent to a node js backend and transcribed.
+#### Client App
 
-Run `npm start` inside app folder
+<img src= "https://github.com/piy0999/Egalex/blob/master/images/app.png" width="500" height="500">
+
+A react native hybrid app which helps register new cases. Has a sound recording feature which is sent to a Node.js backend and transcribed to text via an in-house LSTM model.
+
+Run `npm start` inside app folder to run it via Expo or Android/iOS simulator.
 
 #### Machine Learning
 
-A ML model to transcribe audio to text.
+A LSTM model to transcribe audio to text.
 
-#### Ethereum Backend
+#### Private Blockchain Network
 
-A fallback node server that calls the Case Factory on Rinkeby Network and creates a new case with details sent by the mobile app.
+##### 1. Multichain
+
+A private network is formed via multichain. Setup.sh scripts have been prepared which can help setup a new law firm network in minutes. If a network has to be setup, just setup a new ubuntu virtual machine on any cloud offering and run `curl -s https://raw.githubusercontent.com/piy0999/Egalex/master/firm_node/setup_master.sh | bash /dev/stdin`. If a network is already there, setup a new ubuntu virtual machine and run `curl -s https://raw.githubusercontent.com/piy0999/Egalex/master/firm_node/setup_node.sh | bash /dev/stdin {IP:PORT}` after replacing IP:PORT with address of an existing node on the network.
+
+##### 2. Ethereum
+
+In case you don't want to setup a private network and want to instead use ethereum, there is a ethereum/solidity solution too.
+
+A fallback node server has also been setup that calls the Case Factory on Rinkeby Network and creates a new case with details sent by the mobile app.
 
 Inside ethereum folder, insert 12-word mnemonic and infura node link in `./ethereum/web3.js` and then Run `./node_modules/babel-cli/bin/babel-node.js --presets node6 ./server.js`
