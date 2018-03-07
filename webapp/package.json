@@ -1,14 +1,16 @@
 {
-  "name": "essential-react",
+  "name": "Egalex",
   "version": "0.3.0",
-  "description": "A minimal skeleton for building testable React apps using ES6.",
+  "description": "A front-end for law firms to see and choose cases.",
   "main": "src/main.jsx",
   "scripts": {
     "postinstall": "npm run build",
     "server": "node server.js",
     "build": "webpack -p --config webpack.production.config.js",
-    "test": "PHANTOMJS_BIN=./node_modules/.bin/phantomjs ./node_modules/karma/bin/karma start karma.config.js",
-    "test-cross-browser": "./node_modules/karma/bin/karma start karma.cross-browser.config.js",
+    "test":
+      "PHANTOMJS_BIN=./node_modules/.bin/phantomjs ./node_modules/karma/bin/karma start karma.config.js",
+    "test-cross-browser":
+      "./node_modules/karma/bin/karma start karma.cross-browser.config.js",
     "coveralls": "cat coverage/lcov.info | coveralls",
     "clean": "rm build/app.js"
   },
@@ -16,18 +18,9 @@
     "type": "git",
     "url": "https://github.com/pheuter/essential-react.git"
   },
-  "keywords": [
-    "skeleton",
-    "template",
-    "react",
-    "quickstart"
-  ],
-  "author": "Mark Fayngersh",
+  "keywords": ["skeleton", "template", "react", "quickstart"],
+  "author": "Piyush Jha, Waqas Ali",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pheuter/essential-react/issues"
-  },
-  "homepage": "https://github.com/pheuter/essential-react",
   "devDependencies": {
     "coveralls": "^2.11.2",
     "istanbul": "^0.3.7",

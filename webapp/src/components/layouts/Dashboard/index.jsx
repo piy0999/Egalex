@@ -65,8 +65,8 @@ var HomePage = React.createClass({
             <div className="col-sm-3 col-md-2 sidebar">
               <div className="text-center">
                 <h2 className="brand">
-                  Eagelax <br />
-                  <small>Makes case accessible</small>
+                  DLA Piper <br />
+                  <small>Egalex Portal</small>
                 </h2>
                 <img
                   src={require('../../../common/images/flat-avatar.png')}

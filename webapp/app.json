@@ -1,13 +1,10 @@
 {
-  "name": "Essential React",
-  "description": "A minimal skeleton for building testable React apps using ES6",
-  "keywords": [
-    "react",
-    "es6",
-    "starter"
-  ],
+  "name": "Egalex",
+  "description": "A front-end for law firms to see and choose cases.",
+  "keywords": ["react", "es6", "starter"],
   "repository": "https://github.com/pheuter/essential-react",
-  "logo": "https://dl.dropboxusercontent.com/u/1803181/essential-react-logo.png",
+  "logo":
+    "https://dl.dropboxusercontent.com/u/1803181/essential-react-logo.png",
   "env": {
     "PRODUCTION": "true"
   }

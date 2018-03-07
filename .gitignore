@@ -45,3 +45,5 @@ ML/.DS_Store
 /app/android/app/kittenTricks.jks
 /app/*.orig
 /app/.expo
+
+/webapp/node_modules
