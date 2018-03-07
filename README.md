@@ -2,11 +2,11 @@
 
 ## Egalex
 
-<i> Enhancing access to Justice ! </i>
+<i> Enhancing access to Justice! </i>
 
 ### About
 
-<img src= "https://github.com/piy0999/Egalex/blob/master/images/flowchart.png" width="500" height="500">
+<img src= "https://github.com/piy0999/Egalex/blob/master/images/flowchart.png">
 
 Law firms already do pro bono work but many times they find it hard to find cases or underprivileged people find it hard to reach these firms.
 
@@ -22,7 +22,7 @@ To process this audio, we created an <b> in-house speech-to-text model </b>. Aft
 
 #### Lawyer Front-end
 
-<img src= "https://github.com/piy0999/Egalex/blob/master/images/frontend.png" width="500" height="500">
+<img src= "https://github.com/piy0999/Egalex/blob/master/images/frontend.png">
 
 A web app for law firms made with react to see and accept cases.
 
