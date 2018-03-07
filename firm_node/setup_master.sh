@@ -22,7 +22,7 @@ sed -i -e 's/anyone-can-connect = false/anyone-can-connect = true/g' ~/.multicha
 sed -i -e 's/anyone-can-send = false/anyone-can-send = true/g' ~/.multichain/chain1/params.dat
 sed -i -e 's/anyone-can-receive = false/aanyone-can-receive = true/g' ~/.multichain/chain1/params.dat
 multichaind chain1 -daemon
-multichain-cli chain1 create strm1
+multichain-cli chain1 create stream strm1 true
 echo '7. Opening ports...'
 sudo ufw allow 22
 sudo ufw allow 5000
