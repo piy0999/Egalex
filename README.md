@@ -36,13 +36,15 @@ Run `npm start` inside app folder to run it via Expo or Android/iOS simulator.
 
 #### Machine Learning
 
-A LSTM model to transcribe audio to text.
+An LSTM machine learning model based on Keras to transcribe speech to text. The whole model has been developed completely <b> IN HOUSE <b> which saves costs and has learning from extremely large open datasets. 
 
 #### Private Blockchain Network
 
 ##### 1. Multichain
 
 A private network is formed via multichain. Setup.sh scripts have been prepared which can help setup a new law firm network in minutes. If a network has to be setup, just setup a new ubuntu virtual machine on any cloud offering and run `curl -s https://raw.githubusercontent.com/piy0999/Egalex/master/firm_node/setup_master.sh | bash /dev/stdin`. If a network is already there, setup a new ubuntu virtual machine and run `curl -s https://raw.githubusercontent.com/piy0999/Egalex/master/firm_node/setup_node.sh | bash /dev/stdin {IP:PORT}` after replacing IP:PORT with address of an existing node on the network.
+
+The multichain blockchain stores the data for the cases in an encoded hexadecimal data stream format on the blockchain which is rendered on the frontend through our python flask restful API. 
 
 ##### 2. Ethereum
 
