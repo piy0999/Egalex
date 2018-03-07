@@ -28,7 +28,7 @@ A web app for law firms made with react to see and accept cases.
 
 #### Client App
 
-<img src= "https://github.com/piy0999/Egalex/blob/master/images/app.png" width="500" height="500">
+<img src= "https://github.com/piy0999/Egalex/blob/master/images/app.png">
 
 A react native hybrid app which helps register new cases. Has a sound recording feature which is sent to a Node.js backend and transcribed to text via an in-house LSTM model.
 
