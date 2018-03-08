@@ -8,9 +8,6 @@ import data
 import os
 import subprocess
 
-__author__ = 'namju.kim@kakaobrain.com'
-
-
 # data path
 _data_path = "asset/data/"
 
