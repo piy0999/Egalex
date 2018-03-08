@@ -18,6 +18,13 @@ Moreover, underprivileged people can also add their case to the network through 
 
 To process this audio, we created an <b> in-house speech-to-text model </b>. After transcribing the story we push the person's ask for help to the network with a summary of his story and contact details. We did it for English to English but this could work for any language so it's really useful for people like refugees.
 
+### Business Model
+
+1. A server maintained by Egalex Foundation which hosts the in-house machine learning model and transaction node to access the private network (multichain or public ethereum or private ethereum)
+2. iOS and Play store fees paid by Egalex Foundation
+3. Egalex Foundation runs on charity on the model of Wikipedia
+4. In addition to Egalex foundation, anyone can contribute to ppen-source machine learning, network, app and front-end code.
+
 ### Tech Stack
 
 #### Lawyer Front-end
@@ -53,6 +60,6 @@ The multichain blockchain stores the data for the cases in an encoded hexadecima
 
 In case you don't want to setup a private network and want to instead use ethereum, there is a ethereum/solidity solution too.
 
-A fallback node server has also been setup that calls the Case Factory on Rinkeby Network and creates a new case with details sent by the mobile app.
+A fallback node server has also been setup for the app if it can't access the ethereum network (Rinkeby for testing) itself. The fallback server calls the Case Factory on Rinkeby Network and creates a new case with details sent by the mobile app. This node server's gas costs can be paid via charity.
 
 Inside ethereum folder, insert 12-word mnemonic and infura node link in `./ethereum/web3.js` and then Run `./node_modules/babel-cli/bin/babel-node.js --presets node6 ./server.js`
