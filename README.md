@@ -2,7 +2,7 @@
 
 ## Egalex
 
-<i> Enhancing access to Justice! </i>
+<i>Enhancing access to justice!</i>
 
 ### About
 
@@ -25,6 +25,10 @@ To process this audio, we created an <b> in-house speech-to-text model </b>. Aft
 3. Egalex Foundation runs on charity on the model of Wikipedia
 4. In addition to Egalex foundation, anyone can contribute to open-source machine learning, network, app and front-end code.
 5. Each node kept up by the law firm by themselves. If they want help, they can pay the Egalex foundation for maintenance.
+
+### Presentation
+
+See it [here](https://docs.google.com/presentation/d/1lch0c4M8HD_gC8ujHhFJo9GHNhCdkoMgXqFEhRNcIxs/edit?usp=sharing).
 
 ### Tech Stack
 
