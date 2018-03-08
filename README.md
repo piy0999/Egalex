@@ -20,10 +20,11 @@ To process this audio, we created an <b> in-house speech-to-text model </b>. Aft
 
 ### Business Model
 
-1. A server maintained by Egalex Foundation which hosts the in-house machine learning model and transaction node to access the private network (multichain or public ethereum or private ethereum)
+1. A server maintained by Egalex Foundation which hosts the in-house machine learning model and transaction node to access the network (private multichain or public ethereum or private ethereum)
 2. iOS and Play store fees paid by Egalex Foundation
 3. Egalex Foundation runs on charity on the model of Wikipedia
-4. In addition to Egalex foundation, anyone can contribute to ppen-source machine learning, network, app and front-end code.
+4. In addition to Egalex foundation, anyone can contribute to open-source machine learning, network, app and front-end code.
+5. Each node kept up by the law firm by themselves. If they want help, they can pay the Egalex foundation for maintenance.
 
 ### Tech Stack
 
