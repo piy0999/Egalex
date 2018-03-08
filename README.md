@@ -42,7 +42,10 @@ A LSTM model to transcribe audio to text.
 
 ##### 1. Multichain
 
-A private network is formed via multichain. Setup.sh scripts have been prepared which can help setup a new law firm network in minutes. If a network has to be setup, just setup a new ubuntu virtual machine on any cloud offering and run `curl -s https://raw.githubusercontent.com/piy0999/Egalex/master/firm_node/setup_master.sh | bash /dev/stdin`. If a network is already there, setup a new ubuntu virtual machine and run `curl -s https://raw.githubusercontent.com/piy0999/Egalex/master/firm_node/setup_node.sh | bash /dev/stdin {IP:PORT}` after replacing IP:PORT with address of an existing node on the network.
+A private network is formed via multichain. Setup.sh scripts have been prepared which can help setup a new law firm network in minutes.
+
+1. To create first node (establish a new network): `curl -s https://raw.githubusercontent.com/piy0999/Egalex/master/firm_node/multichain/setup_master.sh | bash /dev/stdin`
+2. To join existing network, get IP address and port of any node in existing network, run the following command and ask the network to approve connect request. `curl -s https://raw.githubusercontent.com/piy0999/Egalex/master/firm_node/multichain/setup_node.sh | bash /dev/stdin {IP:PORT}`
 
 ##### 2. Ethereum
 

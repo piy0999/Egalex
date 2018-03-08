@@ -4,7 +4,7 @@ sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 sudo dpkg-reconfigure locales
 git config credential.helper store
 echo '2. Cloning github...'
-git clone https://github.com/piy0999/Egalex
+git clone https://github.com/piy0999/Egalex.git
 echo '3. Installing python3 pip...'
 sudo apt install python3-pip
 echo '4. Installing packages...'
